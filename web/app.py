@@ -63,7 +63,7 @@ def index():
         
 
     #Health check test that toggles image
-    if healthy == True:
+    if healthy == False:
         url = get_image(vote)
     else:
         url = "../static/error.png"
