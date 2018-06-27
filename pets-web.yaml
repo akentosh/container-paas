@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: chrch/docker-pets:1.0
+        image: gcr.io/containers-101/container-pets
         ports:
         - containerPort: 5000
 ---
